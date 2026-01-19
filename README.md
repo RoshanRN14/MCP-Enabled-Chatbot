@@ -169,14 +169,6 @@ GITHUB_TOKEN=your_github_pat
 
 > Salesforce authentication is handled via Salesforce CLI (`sf`).
 
----
-
-Sure 👍 — here’s a **more detailed, beginner-friendly version** of the Salesforce authentication section you can drop straight into your README.
-It explains **what’s happening**, **what to expect**, and **how to troubleshoot**.
-
----
-
-Here’s a **clean, concise rewrite** of that README section, aligned with what you actually implemented and learned (no extra fluff, no misleading bits):
 
 ---
 
