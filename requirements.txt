@@ -1,28 +1,66 @@
-# UI
-streamlit==1.47.1
-
-# LangGraph & LangChain
-langgraph==0.6.1
-langgraph-prebuilt==0.6.1
-langgraph-checkpoint==2.1.1
-langgraph-checkpoint-sqlite==2.0.11
-
-langchain==0.3.27
-langchain-core==0.3.72
-langchain-openai==0.3.28
-
-# MCP
-langchain-mcp-adapters
-
-# LLM + HTTP
-openai==1.98.0
-httpx==0.28.1
-requests==2.32.4
-
-# Async & storage
+# --- Core async / networking ---
+aiofiles==24.1.0
+aiohttp==3.13.3
 aiosqlite==0.21.0
 anyio==4.9.0
+httpx==0.28.1
+httpx-sse==0.4.3
+requests==2.32.5
+requests-toolbelt==1.0.0
+websockets==15.0.1
+sse-starlette==3.1.2
+uvicorn==0.40.0
 
-# Utils
+# --- LangChain / LangGraph / MCP ---
+langchain==0.3.27
+langchain-community==0.4.1
+langchain-core==1.2.6
+langchain-openai==0.3.28
+langchain-google-genai==4.1.3
+langchain-text-splitters==1.1.0
+langchain-mcp-adapters==0.2.0
+langgraph==0.6.1
+langgraph-checkpoint==2.1.1
+langgraph-checkpoint-sqlite==2.0.11
+langgraph-prebuilt==0.6.1
+langgraph-sdk==0.2.15
+langsmith==0.6.1
+mcp==1.25.0
+
+# --- LLM providers ---
+openai==1.98.0
+google-genai==1.57.0
+tiktoken==0.12.0
+
+# --- UI / Frontends ---
+gradio==6.3.0
+gradio_client==2.0.3
+fastapi==0.128.0
+starlette==0.50.0
+flask==3.1.2
+flask-cors==6.0.2
+streamlit==1.47.1
+
+# --- Data / utilities ---
+pandas==2.3.3
+numpy==2.4.0
+pyarrow==22.0.0
+orjson==3.11.5
+jsonschema==4.25.1
+pydantic==2.12.5
+pydantic-settings==2.12.0
 python-dotenv==1.1.1
-typing_extensions==4.14.1
+typing-extensions==4.14.1
+rich==14.2.0
+tqdm==4.67.1
+
+# --- Auth / security ---
+cryptography==46.0.3
+PyJWT==2.10.1
+google-auth==2.47.0
+
+# --- Misc ---
+GitPython==3.1.46
+semantic-version==2.10.0
+shellingham==1.5.4
+watchdog==6.0.0
