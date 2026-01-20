@@ -107,7 +107,7 @@ def get_threads():
         threads = run_async(retrieve_all_threads())
         return jsonify({
             "success": True,
-            "threads": [{"id": t} for t in threads]
+            "threads": threads  # Return as a flat list of strings
         })
     except Exception as e:
         return jsonify({
