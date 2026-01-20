@@ -1,0 +1,28 @@
+# UI
+streamlit==1.47.1
+
+# LangGraph & LangChain
+langgraph==0.6.1
+langgraph-prebuilt==0.6.1
+langgraph-checkpoint==2.1.1
+langgraph-checkpoint-sqlite==2.0.11
+
+langchain==0.3.27
+langchain-core==0.3.72
+langchain-openai==0.3.28
+
+# MCP
+langchain-mcp-adapters
+
+# LLM + HTTP
+openai==1.98.0
+httpx==0.28.1
+requests==2.32.4
+
+# Async & storage
+aiosqlite==0.21.0
+anyio==4.9.0
+
+# Utils
+python-dotenv==1.1.1
+typing_extensions==4.14.1
