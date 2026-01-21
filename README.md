@@ -190,7 +190,7 @@ npm install -g @salesforce/cli
 Verify installation:
 
 ```bash
-sf --version
+npx sf --version
 ```
 
 ---
